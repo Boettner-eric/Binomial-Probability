@@ -11,13 +11,13 @@ This python script solves Binomial Probability problems.  It iterates through al
 The script also outputs the final equation in Latex for simple file creation
 * Template equation
 ```Latex
-$\sum\limits_{k=1}^{n}{n\choose k}* p^{n-k}*q^{k} \geq r$
+$\sum\limits_{k=1}^{n}{n\choose k}\cdot p^{n-k}\cdot q^{k} \geq r$
 ```
 ![Example 1](ex1.svg)
 
 * Example from Class
 ````Latex
-$\sum\limits_{k=10}^{45}{45\choose k}* 0.25^{45-k}*0.75^{k} \geq 0.7$
+$\sum\limits_{k=10}^{45}{45\choose k}\cdot 0.25^{45-k}\cdot 0.75^{k} \geq 0.7$
 ````
 
 ![Example 2](ex2.svg)
