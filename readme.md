@@ -19,6 +19,7 @@ $\sum\limits_{k=1}^{n}{n\choose k}* p^{n-k}*q^{k} \geq r$
 ````Latex
 $\sum\limits_{10}^{45}{45\choose 10}* 0.25^{45-10}*0.75^{10} \geq 0.7$
 ````
+
 ![Example 2](ex2.svg)
 
 ### Example problem
@@ -26,6 +27,7 @@ If there is a 25% probability of making a given shot how many shots do you need 
 (or there is a 70% chance you make 10 shots if you shoot n shots with an accuracy of 25%)
 
 In this case k = 10, p = 0.25, r = 0.70 and the program finds n (n=45)
+
 ![Example 2](ex2.svg)
 
 
