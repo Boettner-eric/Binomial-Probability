@@ -40,5 +40,5 @@ def main():
     print(str(n) + " attempts with probability " + str(round(result,4)) + " >= " + str(r))
     print("\nLatex Equations")
     print(" $\sum\limits_{k=1}^{n}{n\choose k}\cdot q^{n-k}*p^{k} \geq r$")
-    print(" $\sum\limits_{k="+str(k) +"}^{"+str(n)+"}{"+str(n)+"\choose k}\cdot "+str(q)+"^{"+str(n)+"-k}*" + str(p)+"^{"+str(k) +"}\geq" + str(r)+"$")
+    print(" $\sum\limits_{k="+str(k) +"}^{"+str(n)+"}{"+str(n)+"\choose k}\cdot "+str(q)+"^{"+str(n)+"-k}\cdot" + str(p)+"^{"+str(k) +"}\geq" + str(r)+"$")
 main()
