@@ -17,7 +17,7 @@ $\sum\limits_{k=1}^{n}{n\choose k}* p^{n-k}*q^{k} \geq r$
 
 * Example from Class
 ````Latex
-$\sum\limits_{10}^{45}{45\choose 10}* 0.25^{45-10}*0.75^{10} \geq 0.7$
+$\sum\limits_{k=10}^{45}{45\choose k}* 0.25^{45-k}*0.75^{k} \geq 0.7$
 ````
 
 ![Example 2](ex2.svg)
