@@ -1,5 +1,5 @@
 import math
-
+##
 def nCk(n,k):
     f = math.factorial
     return f(n) // f(k) // f(n-k)
